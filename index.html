@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Todo List</title>
+</head>
+<body>
+  <header>
+    <h4>To Do List</h4>
+    <!-- <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p> -->
+    <div class="container-search">
+      <input type="text" id="texto-tarefa">
+      <i class="fas fa-search input-icon"> Write something for add your list</i>
+      <button id="criar-tarefa">+</button>
+    </div>
+    <div class="test">
+      <div class="container-list">
+        <ol id="lista-tarefas"></ol>
+        <div class="container-buttons">
+          <button id="mover-cima"><i class="fas fa-long-arrow-alt-up"></i></button>
+          <button id="remover-selecionado"><i class="fas fa-minus"></i></button>
+          <button id="mover-baixo"><i class="fas fa-long-arrow-alt-down"></i></button>
+        </div>
+      </div>
+    </div>
+    <button id="apaga-tudo">Clear</button>
+    <!-- <button id="remover-finalizados">Remove Completed</button> -->
+    <!-- <button id="salvar-tarefas">Save Task</button> -->
+  </header>
+  <script src="script.js"></script>
+</body>
+</html>
